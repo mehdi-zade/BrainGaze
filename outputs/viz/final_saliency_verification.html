@@ -1,0 +1,249 @@
+<html>
+
+<head>
+    <title>EEG-Saliency Final Verification</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #0a0a0c;
+            color: #d1d1d1;
+            padding: 50px;
+        }
+
+        .card {
+            background: #16161a;
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 50px;
+            border: 1px solid #2d2d35;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 20px;
+            align-items: end;
+        }
+
+        .col {
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 12px;
+            border: 2px solid #333;
+            transition: 0.3s;
+        }
+
+        img:hover {
+            border-color: #7289da;
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: #fff;
+            font-weight: 400;
+            margin-top: 0;
+        }
+
+        h3 {
+            font-size: 0.8em;
+            color: #888;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            background: #7289da;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 10px;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align:center; font-weight:300; font-size: 2.5em;">Brain-Gaze Alignment Proof</h1>
+    <p style="text-align:center; color: #888; margin-bottom: 60px;">EEG Trials paired with SALICON Human Saliency
+        Heatmaps</p>
+
+    <div class="card">
+        <h2>COCO 274108 <span class="badge">train</span></h2>
+        <div class="grid">
+            <div class="col">
+                <h3>EEG Waveform</h3>
+                <img src="eeg_3856.png">
+            </div>
+            <div class="col">
+                <h3>HDF5 Input</h3>
+                <img src="aj_3856.png">
+            </div>
+            <div class="col">
+                <h3>Original Stimulus</h3>
+                <img src="stim_274108.jpg">
+            </div>
+            <div class="col" style="background: #ffffff10; padding: 10px; border-radius: 15px;">
+                <h3 style="color: #ff4757;">Ground Truth Gaze</h3>
+                <img src="map_274108.png" style="border-color: #ff4757;">
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>COCO 274108 <span class="badge">train</span></h2>
+        <div class="grid">
+            <div class="col">
+                <h3>EEG Waveform</h3>
+                <img src="eeg_3856.png">
+            </div>
+            <div class="col">
+                <h3>HDF5 Input</h3>
+                <img src="aj_3856.png">
+            </div>
+            <div class="col">
+                <h3>Original Stimulus</h3>
+                <img src="stim_274108.jpg">
+            </div>
+            <div class="col" style="background: #ffffff10; padding: 10px; border-radius: 15px;">
+                <h3 style="color: #ff4757;">Ground Truth Gaze</h3>
+                <img src="map_274108.png" style="border-color: #ff4757;">
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>COCO 547644 <span class="badge">train</span></h2>
+        <div class="grid">
+            <div class="col">
+                <h3>EEG Waveform</h3>
+                <img src="eeg_10600.png">
+            </div>
+            <div class="col">
+                <h3>HDF5 Input</h3>
+                <img src="aj_10600.png">
+            </div>
+            <div class="col">
+                <h3>Original Stimulus</h3>
+                <img src="stim_547644.jpg">
+            </div>
+            <div class="col" style="background: #ffffff10; padding: 10px; border-radius: 15px;">
+                <h3 style="color: #ff4757;">Ground Truth Gaze</h3>
+                <img src="map_547644.png" style="border-color: #ff4757;">
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>COCO 547644 <span class="badge">train</span></h2>
+        <div class="grid">
+            <div class="col">
+                <h3>EEG Waveform</h3>
+                <img src="eeg_10600.png">
+            </div>
+            <div class="col">
+                <h3>HDF5 Input</h3>
+                <img src="aj_10600.png">
+            </div>
+            <div class="col">
+                <h3>Original Stimulus</h3>
+                <img src="stim_547644.jpg">
+            </div>
+            <div class="col" style="background: #ffffff10; padding: 10px; border-radius: 15px;">
+                <h3 style="color: #ff4757;">Ground Truth Gaze</h3>
+                <img src="map_547644.png" style="border-color: #ff4757;">
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>COCO 334208 <span class="badge">train</span></h2>
+        <div class="grid">
+            <div class="col">
+                <h3>EEG Waveform</h3>
+                <img src="eeg_25741.png">
+            </div>
+            <div class="col">
+                <h3>HDF5 Input</h3>
+                <img src="aj_25741.png">
+            </div>
+            <div class="col">
+                <h3>Original Stimulus</h3>
+                <img src="stim_334208.jpg">
+            </div>
+            <div class="col" style="background: #ffffff10; padding: 10px; border-radius: 15px;">
+                <h3 style="color: #ff4757;">Ground Truth Gaze</h3>
+                <img src="map_334208.png" style="border-color: #ff4757;">
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>COCO 64534 <span class="badge">train</span></h2>
+        <div class="grid">
+            <div class="col">
+                <h3>EEG Waveform</h3>
+                <img src="eeg_23729.png">
+            </div>
+            <div class="col">
+                <h3>HDF5 Input</h3>
+                <img src="aj_23729.png">
+            </div>
+            <div class="col">
+                <h3>Original Stimulus</h3>
+                <img src="stim_64534.jpg">
+            </div>
+            <div class="col" style="background: #ffffff10; padding: 10px; border-radius: 15px;">
+                <h3 style="color: #ff4757;">Ground Truth Gaze</h3>
+                <img src="map_64534.png" style="border-color: #ff4757;">
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>COCO 333654 <span class="badge">train</span></h2>
+        <div class="grid">
+            <div class="col">
+                <h3>EEG Waveform</h3>
+                <img src="eeg_25588.png">
+            </div>
+            <div class="col">
+                <h3>HDF5 Input</h3>
+                <img src="aj_25588.png">
+            </div>
+            <div class="col">
+                <h3>Original Stimulus</h3>
+                <img src="stim_333654.jpg">
+            </div>
+            <div class="col" style="background: #ffffff10; padding: 10px; border-radius: 15px;">
+                <h3 style="color: #ff4757;">Ground Truth Gaze</h3>
+                <img src="map_333654.png" style="border-color: #ff4757;">
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>COCO 332574 <span class="badge">train</span></h2>
+        <div class="grid">
+            <div class="col">
+                <h3>EEG Waveform</h3>
+                <img src="eeg_25287.png">
+            </div>
+            <div class="col">
+                <h3>HDF5 Input</h3>
+                <img src="aj_25287.png">
+            </div>
+            <div class="col">
+                <h3>Original Stimulus</h3>
+                <img src="stim_332574.jpg">
+            </div>
+            <div class="col" style="background: #ffffff10; padding: 10px; border-radius: 15px;">
+                <h3 style="color: #ff4757;">Ground Truth Gaze</h3>
+                <img src="map_332574.png" style="border-color: #ff4757;">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

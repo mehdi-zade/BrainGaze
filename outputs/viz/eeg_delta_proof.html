@@ -1,0 +1,548 @@
+
+    <html>
+    <head>
+        <title>Visual Proof Catalog: EEG Attention Modulation (20 Samples)</title>
+        <style>
+            body { font-family: 'Segoe UI', sans-serif; background: #0c0c0e; color: #eee; padding: 40px; }
+            .card { background: #1a1a1d; border-radius: 16px; padding: 30px; border: 1px solid #333; margin-bottom: 50px; }
+            .grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1.2fr; gap: 20px; text-align: center; align-items: center; }
+            img { width: 100%; border-radius: 8px; border: 1px solid #444; }
+            .label { font-size: 0.85em; color: #aaa; text-transform: uppercase; margin-bottom: 10px; font-weight: bold; }
+            .title { font-size: 2.2em; font-weight: 300; text-align: center; margin-bottom: 10px; }
+            .highlight { color: #7289da; }
+        </style>
+    </head>
+    <body>
+        <h1 class="title">Visual proof Catalog: <span class="highlight">EEG Attention Modulation</span></h1>
+        <p style="text-align:center; color:#888; font-size: 1.1em; margin-bottom: 30px;">
+            A catalog of 20 unique test images showing the direct modulatory effect of subject brainwaves on visual saliency.
+        </p>
+        <p style="text-align:center; color:#7289da; font-size: 1.2em; font-weight: bold; margin-bottom: 60px;">
+            Guidance Scaling Active: 1.0x (Set GUIDANCE_SCALE = 1.0 in visualize_eeg_delta.py to revert to raw outputs)
+        </p>
+        
+        
+        <div class="card">
+            <h2>Sample #1 | Image ID: 8559</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_8559.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_8559.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_8559.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_8559.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_8559.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #2 | Image ID: 11282</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_11282.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_11282.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_11282.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_11282.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_11282.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #3 | Image ID: 5589</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_5589.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_5589.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_5589.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_5589.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_5589.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #4 | Image ID: 15345</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_15345.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_15345.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_15345.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_15345.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_15345.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #5 | Image ID: 12818</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_12818.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_12818.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_12818.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_12818.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_12818.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #6 | Image ID: 1355</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_1355.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_1355.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_1355.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_1355.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_1355.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #7 | Image ID: 8599</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_8599.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_8599.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_8599.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_8599.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_8599.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #8 | Image ID: 12650</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_12650.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_12650.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_12650.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_12650.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_12650.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #9 | Image ID: 16470</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_16470.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_16470.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_16470.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_16470.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_16470.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #10 | Image ID: 1386</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_1386.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_1386.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_1386.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_1386.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_1386.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #11 | Image ID: 3983</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_3983.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_3983.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_3983.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_3983.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_3983.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #12 | Image ID: 2124</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_2124.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_2124.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_2124.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_2124.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_2124.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #13 | Image ID: 8587</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_8587.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_8587.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_8587.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_8587.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_8587.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #14 | Image ID: 1804</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_1804.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_1804.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_1804.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_1804.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_1804.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #15 | Image ID: 15197</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_15197.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_15197.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_15197.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_15197.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_15197.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #16 | Image ID: 1700</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_1700.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_1700.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_1700.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_1700.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_1700.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #17 | Image ID: 12085</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_12085.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_12085.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_12085.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_12085.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_12085.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #18 | Image ID: 9479</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_9479.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_9479.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_9479.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_9479.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_9479.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #19 | Image ID: 7274</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_7274.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_7274.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_7274.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_7274.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_7274.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Sample #20 | Image ID: 605</h2>
+            <div class="grid">
+                <div>
+                    <div class="label">1. Stimulus Image</div>
+                    <img src="delta_stim_605.jpg">
+                </div>
+                <div>
+                    <div class="label">2. Human Gaze (True)</div>
+                    <img src="delta_true_605.png">
+                </div>
+                <div>
+                    <div class="label">3. Prior Only (No EEG)</div>
+                    <img src="delta_prior_605.png">
+                </div>
+                <div>
+                    <div class="label">4. Joint Prediction (EEG + Image)</div>
+                    <img src="delta_joint_605.png">
+                </div>
+                <div>
+                    <div class="label" style="color: #ff3333;">5. EEG Modulatory Effect (Delta)</div>
+                    <img src="delta_diff_605.png">
+                </div>
+            </div>
+        </div>
+        
+        
+    </body>
+    </html>
+    

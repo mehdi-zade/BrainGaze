@@ -1,0 +1,72 @@
+{
+  "v1": {
+    "name": "v1 (FiLM U-Net)",
+    "params": 8998945,
+    "clean_cc": 0.7331,
+    "clean_kld": 1.0961,
+    "clean_sim": 0.605,
+    "noise_shift_pct": 0.66,
+    "delta_noise_cc_pct": 0.16,
+    "subj_swap_shift_pct": 0.14,
+    "zero_image_cc": 0.0653,
+    "zero_image_drop_pct": -91.09,
+    "occipital_drop_pct": 0.05,
+    "nvds_sensitive": false
+  },
+  "v2": {
+    "name": "v2 (Auxiliary + VICReg)",
+    "params": 14700897,
+    "clean_cc": 0.1238,
+    "clean_kld": 1.4344,
+    "clean_sim": 0.3218,
+    "noise_shift_pct": 0.0,
+    "delta_noise_cc_pct": 0.0,
+    "subj_swap_shift_pct": 0.0,
+    "zero_image_cc": 0.1238,
+    "zero_image_drop_pct": 0.0,
+    "occipital_drop_pct": 0.0,
+    "nvds_sensitive": false
+  },
+  "v3": {
+    "name": "v3 (Cross-Attn + Gated)",
+    "params": 14966561,
+    "clean_cc": 0.7455,
+    "clean_kld": 2.5769,
+    "clean_sim": 0.5042,
+    "noise_shift_pct": 2.34,
+    "delta_noise_cc_pct": -0.25,
+    "subj_swap_shift_pct": 1.8,
+    "zero_image_cc": 0.0489,
+    "zero_image_drop_pct": -93.45,
+    "occipital_drop_pct": -0.02,
+    "nvds_sensitive": false
+  },
+  "v4": {
+    "name": "v4 (Min-Gate Lock g>=0.25)",
+    "params": 14966561,
+    "clean_cc": 0.1238,
+    "clean_kld": 1.4344,
+    "clean_sim": 0.3218,
+    "noise_shift_pct": 0.0,
+    "delta_noise_cc_pct": 0.0,
+    "subj_swap_shift_pct": 0.0,
+    "zero_image_cc": 0.1238,
+    "zero_image_drop_pct": 0.0,
+    "occipital_drop_pct": 0.0,
+    "nvds_sensitive": false
+  },
+  "v5": {
+    "name": "BrainGaze v5 (CVMR)",
+    "params": 4962096,
+    "clean_cc": 0.8607,
+    "clean_kld": 1.0014,
+    "clean_sim": 0.6861,
+    "noise_shift_pct": 0.0,
+    "delta_noise_cc_pct": 0.0,
+    "subj_swap_shift_pct": 4.03,
+    "zero_image_cc": -0.0065,
+    "zero_image_drop_pct": -100.76,
+    "occipital_drop_pct": 0.0,
+    "nvds_sensitive": false
+  }
+}
