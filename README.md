@@ -26,7 +26,7 @@ Multimodal neural architectures combining 32-channel electroencephalography (EEG
 
 2. **The Parseval Isometric Guarantee**:
    By enforcing spatial orthogonality on $K=8$ candidate basis maps ($\langle M_j, M_k \rangle = \delta_{jk}$), the $L^2$ spatial distance between predicted saliency maps is **identically equal** to the Euclidean distance between EEG cognitive routing vectors:
-   $$\left\| \hat{\mathbf{Y}}_1 - \hat{\mathbf{Y}}_2 \right\|_{L^2} \equiv \left\| \boldsymbol{\alpha}_1 - \boldsymbol{\alpha}_2 \right\|_2$$
+   $\left\| \hat{\mathbf{Y}}_1 - \hat{\mathbf{Y}}_2 \right\|_{L^2} \equiv \left\| \boldsymbol{\alpha}_1 - \boldsymbol{\alpha}_2 \right\|_2$
 
 3. **Neuro-Visual Diagnostic Standard (NVDS)**:
    A 3-stage validation battery (Waveform Sensitivity, Subject Alignment, and Unimodal Retention) to audit pseudo-fusion reporting across the literature.
@@ -135,29 +135,6 @@ To run the diagnostic audit across Palazzo et al., Wang et al., Min et al., Kaus
 python scripts/run_extended_5models_audit.py
 ```
 
----
-
-## 📖 Citation
-
-If you find this work, the **BrainGaze** architecture, or the **NVDS standard** useful in your research, please cite our manuscript and thesis:
-
-```bibtex
-@article{abdollahzadeh2026braingaze,
-  title={Auditing Modality Collapse in Neuro-Visual Saliency: Benchmarks and Mitigation Failures},
-  author={Abdollahzadeh, Mahdi},
-  journal={IEEE Transactions on Neural Systems and Rehabilitation Engineering},
-  year={2026}
-}
-
-@thesis{abdollahzadeh2026thesis,
-  title={Multimodal Fusion of Brain Cognitive Tracking Features and Visual Stimuli for Personalized Attention Simulation},
-  author={Abdollahzadeh, Mahdi},
-  school={University of Tehran, Faculty of Electrical and Computer Engineering},
-  year={2026}
-}
-```
-
----
 
 ## 📜 License
 
